@@ -1,0 +1,29 @@
+- Git Branch Purge
+  - 22DEC2021
+  - how to unprotect branches moving forward?
+  - how to run pipelines on unprotected branches?
+- How to integrate APIv2
+  - Bandaid method?
+  - need to be aware of the change in foreign key ids from MPC to v2.
+  - events in v2 have `exercise_id` vs mpc's events having `exercise`
+- create-react-app 5.0
+  - requires Node update
+  - what's the deal with `craco`?
+- Other 2022 upgrades
+  - Node 16
+  - React Calendar Timeline
+  - React 18
+  - MUI v5
+- Nitpicks
+  - default export function
+  - Interface definitions
+  - Directory structure
+  - import methods when available
+    - frex: import get from 'lodash/get'
+
+**Takeaways**
+  - Announce the pending branch purge.
+  - Discuss with Matt/ Richard / Matt Schwartz a means of running pipeline on unprotected branches / MRs.
+  - Be mindful of the different id types in API V2 work. 
+    - frex: When working in redux, ensure that `mission` and `mission_id` are present
+  - Aim for a flatter directory structure.
